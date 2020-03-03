@@ -11,7 +11,7 @@ def estimate_pi(n):
         total_points_all += 1
     return 4 * (total_points_circle / total_points_all )
 
-#print(estimate_pi(1000000))
+print(estimate_pi(1000000))
 
 def linear_search(my_list, key):
     count = 0
@@ -20,15 +20,6 @@ def linear_search(my_list, key):
             return ('{} found at index {}'.format(_, count))
         count +=1
     return ('{} not found in the given list')
-
-def binary_search(my_list, key):
-    left = 0
-    right = len(my_list) + 1
-    mid = (left+right)//2
-    while (left <= right):
-        if (key == my_list[mid]):
-            return ('{} found at index {}'.format(_, count))
-        elif ()
             
             
             
