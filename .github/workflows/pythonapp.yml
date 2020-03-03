@@ -28,10 +28,8 @@ jobs:
       - name: Install Dependencies
         run: |
           cat requirements.txt
-          pip freeze
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip freeze
       - name: Lint with flake8
         run: |
           pip install flake8
