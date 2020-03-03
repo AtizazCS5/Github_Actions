@@ -1,4 +1,5 @@
 import random
+import django
 def estimate_pi(n):
     total_points_circle = 0
     total_points_all = 0
