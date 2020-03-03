@@ -28,4 +28,4 @@ def linear_search(my_list, key):
 
 my_list = [88, 13, 70, 32, 96, 46, 52, 63, 25, 11, 79]
 arr = [10, 13, 25, 32, 40, 46, 52, 63, 70, 75, 79, 81, 84, 88, 90, 93, 96, 99]
-print(linear_search(my_list, 80))
+#print(linear_search(my_list, 80))
